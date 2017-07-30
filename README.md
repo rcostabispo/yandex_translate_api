@@ -21,6 +21,7 @@ Or install it yourself as:
 First, create translator using your api key:
 
 ```ruby
+  require 'yandex_translate_api'
   translator = Yandex::Translator.new('your.key')
 ```
 
@@ -56,7 +57,7 @@ If you want to set text language manually add third parameter
 
 ## Contributing
 
-1. Fork it (link_to)
+1. Fork it (https://github.com/rcostabispo/yandex_translate_api/fork)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
